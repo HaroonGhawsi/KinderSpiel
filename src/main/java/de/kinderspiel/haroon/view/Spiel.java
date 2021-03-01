@@ -11,9 +11,7 @@ public class Spiel {
 	private KinderSpielService service;
 
 	@Autowired
-	public Spiel(KinderSpielService kinderSpielService) {
-		this.service = kinderSpielService;
-	}
+	public Spiel(KinderSpielService kinderSpielService){ this.service = kinderSpielService; }
 
 	public void spielen() {
 
